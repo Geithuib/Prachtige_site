@@ -1,0 +1,23 @@
+{
+  "name": "package",
+  "version": "0.1.0",
+  "description": "",
+  "main": "script.js",
+  "devDependencies": {
+    "@web/dev-server": "0.0.15",
+    "rollup": "^2.32.1",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "rollup-plugin-copy": "^3.3.0",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "web-dev-server --node-resolve",
+    "build": "rollup -c rollup.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material/mwc-icon": "^0.19.1"
+  }
+}
