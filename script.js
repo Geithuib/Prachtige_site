@@ -5,7 +5,7 @@ const dateList = document.getElementById("datelist");
 const weatherList = document.getElementById("weatherlist");
 
 async function fetchApi() {
-    const response = await fetch("https://www.metaweather.com//api/location/44418/2020/10/23/");
+    const response = await fetch("https://www.metaweather.com/api/location/44418/2020/10/23/");
     const result = await response.json();
 
     console.log(result)
